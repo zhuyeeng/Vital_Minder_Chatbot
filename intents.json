@@ -1,0 +1,307 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hey",
+        "Hi there",
+        "Howdy",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! How can I support you today?",
+        "Hello! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Farewell",
+        "Catch you later",
+        "See you soon"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "See you later! Stay healthy.",
+        "Bye! Have a great day!",
+        "Farewell! Stay safe."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Thanks a lot",
+        "Thank you so much",
+        "Thanks for the help",
+        "Thank you for your assistance"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Take care.",
+        "My pleasure! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What can you do?",
+        "What services do you offer?",
+        "What can you help me with?",
+        "How can you assist me?",
+        "What are your services?",
+        "What you can do for me?",
+        "Tell me about your services",
+        "What can you provide?"
+      ],
+      "responses": [
+        "I can help you book appointments, provide information on symptoms, medication, and healthcare services.",
+        "I can assist you with scheduling appointments, answering health-related questions, and providing information on our services.",
+        "I offer support with booking appointments, understanding symptoms, medication information, and general healthcare inquiries.",
+        "I can help you find doctors, book appointments, provide health tips, and answer your medical questions."
+      ]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": [
+        "Who are you?",
+        "What is your name?",
+        "Introduce yourself",
+        "Tell me about yourself",
+        "What are you?",
+        "Who am I talking to?"
+      ],
+      "responses": [
+        "I am Vital Minder, your personal health assistant.",
+        "I am Vital Minder, here to assist you with your healthcare needs.",
+        "My name is Vital Minder, and I'm here to help you with health-related queries.",
+        "I'm Vital Minder, a healthcare chatbot designed to assist you with medical inquiries."
+      ]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "What do you sell?",
+        "What products do you offer?",
+        "What items are available?",
+        "What can I buy?",
+        "Tell me about your products",
+        "Do you sell any products?"
+      ],
+      "responses": [
+        "We offer a range of healthcare products including over-the-counter medicines, supplements, and medical supplies.",
+        "You can purchase various healthcare products such as medications, vitamins, and health-related accessories from us.",
+        "Our products include prescription drugs, over-the-counter medications, health supplements, and medical devices."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "I have a headache",
+        "I'm experiencing chest pain",
+        "I feel dizzy",
+        "What should I do if I have a fever?",
+        "I am not feeling well",
+        "I have a sore throat",
+        "I have a stomach ache",
+        "I feel nauseous",
+        "I have a cough",
+        "I have a cold",
+        "I have muscle pain",
+        "I am feeling weak",
+        "I have a rash",
+        "I have a runny nose"
+      ],
+      "responses": [
+        "For a headache, try to rest and stay hydrated. If it persists, please consult a doctor.",
+        "Chest pain can be serious. Please seek medical attention immediately.",
+        "Feeling dizzy could be due to various reasons. It's best to consult a healthcare professional.",
+        "For a fever, drink plenty of fluids and rest. If the fever is high or persistent, contact a doctor.",
+        "For a sore throat, try drinking warm liquids and resting. If it persists, consult a healthcare professional.",
+        "A stomach ache can have many causes. Rest, hydrate, and if the pain persists, see a doctor.",
+        "Feeling nauseous can be due to many reasons. Rest and stay hydrated. If it continues, consult a doctor.",
+        "For a cough, stay hydrated and rest. If it persists, see a healthcare provider.",
+        "For a cold, rest, stay hydrated, and if symptoms worsen, see a doctor.",
+        "Muscle pain can be alleviated with rest and gentle stretching. If it persists, consult a doctor.",
+        "Feeling weak can be due to many factors. Rest and if it continues, seek medical advice.",
+        "A rash can have many causes. Avoid irritants and if it persists, see a doctor.",
+        "For a runny nose, stay hydrated and rest. If it persists, consult a healthcare provider."
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "Can you tell me about my medication?",
+        "How should I take my medicine?",
+        "What are the side effects of this drug?",
+        "What does this medication do?",
+        "How often should I take this medicine?",
+        "What is this drug used for?",
+        "What are the uses of this medication?",
+        "How to use this medicine?"
+      ],
+      "responses": [
+        "Please provide the name of your medication, and I can give you more details.",
+        "It's important to follow the prescription provided by your doctor.",
+        "For side effects, consult your doctor or pharmacist. They can provide the most accurate information.",
+        "Your medication helps to manage your condition. Follow your doctor's instructions for use.",
+        "Follow your doctor’s prescription for how often to take your medicine.",
+        "This medication is used to treat specific conditions. Follow your doctor's advice for its use.",
+        "For detailed information about your medication, please consult your healthcare provider."
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "Do you accept insurance?",
+        "Is my health insurance accepted?",
+        "How do I use my insurance for medical bills?",
+        "Can I pay with my insurance?",
+        "What insurance plans do you accept?",
+        "Is insurance accepted for payment?"
+      ],
+      "responses": [
+        "Yes, we accept various insurance plans. Please provide your insurance details for more information.",
+        "We accept most major health insurance plans. Please check with our billing department for specifics.",
+        "To use your insurance, present your insurance card during your visit. Our staff will assist you with the process.",
+        "We accept a wide range of insurance plans. Please contact our billing department for specific information."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your working hours?",
+        "When is the clinic open?",
+        "Are you open on weekends?",
+        "What time do you open and close?",
+        "Clinic hours",
+        "Opening hours"
+      ],
+      "responses": [
+        "Our clinic is open from 8 AM to 6 PM, Monday to Friday.",
+        "We are open from 8 AM to 6 PM on weekdays. On weekends, we are open from 9 AM to 2 PM.",
+        "Our working hours are 8 AM to 6 PM from Monday to Friday, and 9 AM to 2 PM on weekends.",
+        "The clinic operates from 8 AM to 6 PM on weekdays and 9 AM to 2 PM on weekends."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "What should I do in case of an emergency?",
+        "How do I reach emergency services?",
+        "Is there an emergency contact number?",
+        "I need urgent help",
+        "Emergency situation",
+        "Who to call in an emergency?"
+      ],
+      "responses": [
+        "In case of an emergency, call 911 or visit the nearest emergency room.",
+        "For emergencies, you should contact 911 immediately.",
+        "In any emergency situation, please call 911 or go to the closest emergency department.",
+        "If you are facing an emergency, contact 911 or go to the nearest emergency room."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What is your address?",
+        "Where can I find you?",
+        "Location of the clinic",
+        "Clinic address",
+        "Where is the hospital?"
+      ],
+      "responses": [
+        "Our clinic is located at [insert address here].",
+        "You can find us at [insert address here].",
+        "We are located at [insert address here].",
+        "The clinic address is [insert address here]."
+      ]
+    },
+    {
+      "tag": "doctor_availability",
+      "patterns": [
+        "Is Dr. Smith available?",
+        "Can I see Dr. Johnson?",
+        "When is Dr. Lee available?",
+        "Doctor availability",
+        "Is the doctor available?",
+        "Can I book an appointment with Dr. Brown?"
+      ],
+      "responses": [
+        "Please provide the date and time, and I can check the availability of the doctor.",
+        "Dr. Smith is available on weekdays from 9 AM to 5 PM. Would you like to book an appointment?",
+        "I can check Dr. Johnson's schedule for you. When would you like to see the doctor?",
+        "To check the availability of a doctor, please provide the preferred date and time."
+      ]
+    },
+    {
+      "tag": "specialists",
+      "patterns": [
+        "Do you have specialists?",
+        "Can I see a specialist?",
+        "What specialists are available?",
+        "Do you have any specialists?",
+        "I need a specialist",
+        "Specialist availability"
+      ],
+      "responses": [
+        "Yes, we have various specialists available. Please provide details about your needs.",
+        "We offer appointments with specialists in different fields. What type of specialist are you looking for?",
+        "Specialists are available in various medical fields. Please let us know your requirement.",
+        "We have specialists in cardiology, neurology, orthopedics, and more. Which specialist do you need to see?"
+      ]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": [
+        "Can you give me some health tips?",
+        "How can I stay healthy?",
+        "What are some health tips?",
+        "Give me health advice",
+        "How to maintain good health?",
+        "Health tips",
+        "Advice on staying healthy"
+      ],
+      "responses": [
+        "To stay healthy, eat a balanced diet, exercise regularly, stay hydrated, and get enough sleep.",
+        "Maintain good health by avoiding smoking, limiting alcohol, and managing stress effectively.",
+        "Regular check-ups with your doctor, a balanced diet, and regular exercise can help you stay healthy.",
+        "Stay healthy by following a nutritious diet, staying active, and getting regular health screenings."
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "I am feeling anxious",
+        "I am stressed out",
+        "Can you help with my mental health?",
+        "I need support for my mental health",
+        "Mental health advice",
+        "I feel depressed",
+        "How to handle stress?",
+        "I am feeling overwhelmed"
+      ],
+      "responses": [
+        "It's important to talk to a mental health professional about your feelings. They can provide the best support.",
+        "Practicing mindfulness, staying active, and talking to a trusted person can help with anxiety and stress.",
+        "For mental health support, consider seeing a counselor or therapist. They can provide professional help.",
+        "If you feel depressed or overwhelmed, seek help from a mental health specialist or talk to your doctor."
+      ]
+    }
+  ]
+}
